@@ -1,0 +1,18 @@
+local gameId = game.GameId
+
+if game.PlaceId == 6872265039 then
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sirapobsriumang/Bedwars-lol/main/Obf-2282"))()
+
+elseif gameId == 4777817887 then
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sirapobsriumang/Blade-ball/main/Blade-ball-free"))()
+    
+    elseif game.PlaceId == 738339342 then
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sirapobsriumang/Auto-player/main/Debug"))()
+    print("load")
+
+else
+    print("Unsupported")
+end
